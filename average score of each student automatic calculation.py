@@ -9,19 +9,7 @@ students_grades.append((students_sorted[1],(sum(grades[1])/len(grades[1]))))
 students_grades.append((students_sorted[2],(sum(grades[2])/len(grades[2]))))
 students_grades.append((students_sorted[3],(sum(grades[3])/len(grades[3]))))
 students_grades.append((students_sorted[4],(sum(grades[4])/len(grades[4]))))
-print(students_grades[0])
-
-
-
-
-
-
-
-#print(grades)
-#print(students)
-#Напишите программу, которая составляет словарь, используя grades и students, где ключом будет имя ученика, а значением - его средний балл.
-#Otvet = zip(students_sorted,grades)
-#print(list(Otvet))
+print(dict(students_grades))
 
 
 
